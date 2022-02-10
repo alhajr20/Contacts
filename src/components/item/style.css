@@ -1,0 +1,75 @@
+.modal-window {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(171, 171, 171, 0.2);
+}
+
+.mw__wrapper {
+    position: relative;
+    width: 50%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.mw__wrapper .close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 35px;
+    height: 35px;
+    font-size: 40px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #323232;
+}
+
+.mw__form {
+    margin-top: 50px;
+}
+
+.mw__wrapper .input {
+    margin-bottom: 20px;
+}
+
+.mw__wrapper input {
+    width: 100%;
+    padding: 12px 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.mw__wrapper input, .mw__wrapper input::placeholder {
+    font-size: 20px;
+}
+
+.mw__form button {
+    padding: 12px 32px;
+    color: #FFF;
+    background-color: #2db73d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.modal-window-active {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+
+    .mw__wrapper {
+        width: 85%;
+    }
+}

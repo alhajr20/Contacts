@@ -1,0 +1,131 @@
+.contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.contacts__list {
+    flex: 1 0 calc(60% - 30px);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.contacts__item {
+    padding: 20px 30px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}
+
+.contacts__item:not(:first-child) {
+    margin-top: 30px;
+}
+
+.contacts__item .name {
+    font-size: 22px;
+}
+
+.contacts__item .number {
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.contacts__item .btn {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 12px 26px;
+    background: #323232;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contacts__item .buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contacts__item .btn svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.contacts__item .delete {
+    background-color: rgb(196, 28, 28);
+}
+
+.contacts__item .update {
+    background-color: rgb(29, 75, 174);
+    margin-left: 10px;
+}
+
+.contacts__form {
+    flex: 1 0 calc(40% - 30px);
+    margin-right: 15px;
+    margin-left: 15px;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .2);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contacts__form .title {
+    margin-bottom: 20px;
+}
+
+.contacts__form .input input {
+    width: 100%;
+    padding: 12px 32px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contacts__form .input input::placeholder, .contacts__form .input input {
+    font-size: 20px;
+}
+
+.contacts__form .input {
+    margin-bottom: 20px;
+}
+
+.contacts__form button {
+    padding: 12px 32px;
+    color: #FFF;
+    background-color: #2db73d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search input {
+    padding: 12px 32px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .contacts__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts__form {
+        width: 95%;
+        order: -1;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    .contacts__list {
+        width: 95%;
+    }
+}

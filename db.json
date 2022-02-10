@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "karido20",
+      "password": "karido20karido95"
+    },
+    {
+      "id": 2,
+      "username": "madara20",
+      "password": "madara95borz"
+    },
+    {
+      "id": "b5c43454-87d6-4b99-bfa6-64a257156324",
+      "username": "Khalid",
+      "password": "x2zs68rrrr"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "0efa9934-a476-4c74-8754-0fae7cef21d3",
+      "name": "Khalid",
+      "number": "+7 (928) 132-89-12",
+      "user_id": 1
+    }
+  ]
+}
